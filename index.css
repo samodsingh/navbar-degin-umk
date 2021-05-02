@@ -1,0 +1,391 @@
+
+.container{
+  background-color: rgb(197, 192, 192);
+  width: 100%;
+  height: 100vh;
+}
+.row{
+  width: 98%;
+  background-color: rgb(172, 236, 172);
+  margin: auto;
+  padding: 10px;
+  
+}
+
+  ul {   
+    
+    margin: 0px; 
+    padding: 0px;
+     display: flex;
+    justify-content: center; 
+  
+   
+     
+  }
+  ul li{
+     background-color: rgb(87, 201, 87); 
+    height: 30px;
+    width: 120px;
+    float: left;
+  
+    text-align: center;
+    
+  }
+ 
+  
+  ul li ul li .input11:hover *{
+    color: black;
+  }
+  ul li ul li .input12:hover *{
+    color: black;
+  }
+  ul li ul li .input13:hover *{
+    color: black;
+  }
+  ul li ul li .input14:hover *{
+    color: black;
+  }
+  ul li ul li .input15:hover *{
+    color: black;
+  }
+  ul li ul li .input16:hover *{
+    color: black;
+  }
+  ul li ul li .input17:hover *{
+    color: black;
+  }
+  ul li ul li .input18:hover *{
+    color: black;
+  }
+  ul li ul li .input19:hover *{
+    color: black;
+  }
+  ul li .input6:hover *{
+    color: black;
+  }
+  ul li .input7:hover *{
+    color: black;
+  }
+  ul li .input8:hover *{
+    color: black;
+  }
+  ul li .input9:hover *{
+    color: black;
+  }
+  ul li .input10:hover *{
+    color: black;
+  }
+    
+  
+  ul li ul li i{
+    color: blue;
+  }
+  ul li ul li a{
+    color: rgb(95, 104, 109);
+  }
+  ul li i{
+    color: blue;
+  }
+  ul li a{
+    color: rgb(95, 104, 109);
+  }
+
+  .header1{
+   font-size: 18px;
+   font-weight: bold; 
+  }
+  .header2{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .header3{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .header4{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .header5{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .header6{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .header7{
+    font-size: 18px;
+    font-weight: bold; 
+   }
+   .input11{
+    
+      display: block;
+  }
+  
+  .input11:hover {
+   
+    animation:         INDENT 2s 1; /* IE 10+ */
+  }
+  
+  @-webkit-keyframes INDENT{  
+    0%   { text-indent: 0; }
+    50% { text-indent: 5px; }
+    100% { text-indent: 0; }
+  }
+  @-moz-keyframes INDENT {
+    0%   { text-indent: 0; }
+    50% { text-indent: 5px; }
+    100% { text-indent: 0; }
+  }
+  @-o-keyframes INDENT {
+    0%   { text-indent: 0; }
+    50% { text-indent: 5px; }
+    100% { text-indent: 0; }
+  }
+  @keyframes INDENT {
+    0%   { text-indent: 0; }
+    50% { text-indent: 5px; }
+    100% { text-indent: 0; }
+  }
+
+
+  .input15{
+    
+    display: block;
+}
+
+.input15:hover {
+  -webkit-animation: INDENT 2s 1; /* Safari 4+ */
+  -moz-animation:    INDENT 2s 1; /* Fx 5+ */
+  -o-animation:      INDENT 2s 1; /* Opera 12+ */
+  animation:         INDENT 2s 1; /* IE 10+ */
+}
+
+@-webkit-keyframes INDENT{  
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@-moz-keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@-o-keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+   
+
+  
+
+  
+  li { 
+    display: table-cell; 
+    position: relative; 
+    
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    
+    position: relative;
+    
+  }
+    .input1{
+     width: 20px;
+  }   
+
+  .input1:after{
+         
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: rgb(93, 106, 224);
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    .input1:hover:after { 
+      width: 100%; 
+      left: 0; 
+    }
+    .dropdown{
+     
+      background-color: rgb(240, 235, 243);
+      padding: 25px;
+      border-radius: 5PX;
+      height: 350px;
+      width: 500px;
+      
+      
+      
+    }
+    .dropdownA{
+      
+       /* background-color: rgb(214, 226, 43);  */
+       width: 210px;
+      height: 350px; 
+      display: inline-block;
+    }
+     .dropdownB{
+      
+       /* background-color: rgb(128, 0, 79);  */
+      width: 220px;
+      height: 350px; 
+      float: right;
+     
+      
+    } 
+     ul li .dropdown{
+      display: none;
+    }
+    ul li:hover .dropdown{
+      display: block;
+    }
+     ul li .dropdown1{
+      display: none;
+     }
+     ul li:hover .dropdown1{
+      display: block;
+    }
+   
+   /* .input2{
+     margin-right: 20px;
+    
+  }  */
+  .input2:after{
+         
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(93, 106, 224);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .input2:hover:after { 
+    width: 100%; 
+    left: 0; 
+  } 
+  /* .input3{
+    margin-right: 20px;  
+  } */
+ 
+   .input3:after{
+         
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(93, 106, 224);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .input3:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .dropdown1{
+    background-color: rgb(240, 235, 243);
+    padding: 20PX;
+    border-radius: 5PX;
+    width: 130px;
+  }
+  
+
+  .input4{
+    /* margin-right: 20px; */
+    border: 1px solid black;
+    
+  }
+  
+  .input4:hover{
+    background-color: rgb(174, 181, 182);
+  }
+  .input5{
+    margin-right: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(133, 231, 133);
+  }
+  .input5:hover{
+    background-color: rgb(30, 148, 30);
+  }
+ 
+  @media screen and (max-width: 500px) {
+    
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+    ul li{
+     width: 100%;
+     height: 50px;
+     border-bottom:1px solid ;
+     font-size: 30px;
+     
+   }
+    .dropdown{
+     
+      padding: 15px;
+      height: 800px;
+      width: 350px;
+      margin:12rem auto;
+      z-index: 1;
+      
+      
+    }
+
+    .dropdownA{
+      width: 350px;
+      height: 350px;
+      font-size: 18px;
+
+      padding-top: 5px;
+    }
+
+    .dropdownB{
+      width: 350px;
+      height: 420px;
+      font-size: 18px;
+      margin-top: 10px;
+      padding-top: 5px;
+    }
+
+    .dropdown1{
+      padding: 20PX;
+      width: 80%;
+      margin: auto;    
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+    .dropdown{
+     
+      height: 800px;
+      width: 80%;
+      
+      
+    }
+    .dropdownA{
+      width: 100%;
+
+    }
+    .dropdownB{
+      width: 100%;
+
+    }
+  }
+  
